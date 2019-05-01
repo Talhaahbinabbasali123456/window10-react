@@ -1,0 +1,41 @@
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    height: auto;
+    background-color: #040d11;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 99;
+}
+.searchinp {
+    height: 36px;
+    width: 320px;
+    margin: 0;
+    border: none;
+    background-color: #323333;
+    padding: 1px 12px;
+    font-size: 15px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.icom-img {
+    height: 38px;
+}
+.icom-img:hover {
+    opacity: 0.5;
+}
+.icom-img-right {
+    height: 24px;
+}
+.icom-img-right:hover {
+    opacity: 0.5;
+}
+.time {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    padding: 2px 8px;
+}
